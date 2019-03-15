@@ -48,6 +48,8 @@ export default {
 </style>
 ```
 
+![](./src/assets/back2top4vue.gif)
+
 
 ### license
 MIT
