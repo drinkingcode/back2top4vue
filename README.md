@@ -8,13 +8,13 @@ backgroundColor       | 'green'         | hex or color string. such as 'gray' or
 color                 | 'white'         | hex or color string. such as 'gray' or '#eeeeee'          |the color of the arrow
 
 ##### for example
-change color and backgroundColor
+change color and backgroundColor </br>
 ![](./src/assets/example01.png)   ![](./src/assets/example02.png)
 
 
 
 ### installation
->```npm install back2top --save```
+>```npm i back2top4vue```
 
 
 ### usage
