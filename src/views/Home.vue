@@ -1,18 +1,27 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div id="container">
+    <Back2Top4Vue id="back" color="#eeeeee" backgroundColor="green"></Back2Top4Vue>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Back2Top4Vue from "back2top4vue";
 export default {
-  name: "home",
   components: {
-    HelloWorld
+    Back2Top4Vue
   }
 };
 </script>
+
+<style scoped>
+#container {
+  height: calc(100vh + 800px);
+  width: calc(100vw + 200px);
+}
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  overflow: 999;
+}
+</style>
